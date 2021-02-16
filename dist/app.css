@@ -1,0 +1,37 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  width: 1500px;
+  height: auto;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+  top: 100px;
+}
+.container-box-1 {
+  width: 500px;
+  height: 600px;
+  background-color: green;
+}
+.container-box-2 {
+  width: 500px;
+  height: 600px;
+  background-color: white;
+}
+.container-box-3 {
+  width: 500px;
+  height: 600px;
+  background-color: red;
+}
+.container .box-title {
+  color: "blue";
+  text-align: center;
+}
+.container p {
+  text-align: center;
+}
